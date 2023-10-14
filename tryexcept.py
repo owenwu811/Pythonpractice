@@ -38,3 +38,12 @@ finally:
 #output: Can't divide by zero
 #        This is always executed 
 
+from time import sleep
+while True:
+    try:
+        print("Try and stop me")
+        sleep(1)
+    except:
+        print("Don't stop me now, I'm having such a good time!")
+
+#output: Try and stop me : over and over again every second
