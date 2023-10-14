@@ -47,3 +47,20 @@ while True:
         print("Don't stop me now, I'm having such a good time!")
 
 #output: Try and stop me : over and over again every second
+
+
+def divide_else_finally(a, b):
+    try:
+        print(a / b)
+    except ZeroDivisionError as e:
+        print('catch ZeroDivisionError:', e)
+    else: 
+        print('finish (no error)')
+    finally:
+        print('all finish')
+
+divide_else_finally(1, 2)
+
+#output: 0.5
+#        finish (no error)
+#        all finish
