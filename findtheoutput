@@ -8,6 +8,10 @@ print("maybe")
 output: 	No
 		Maybe
 
+print(int(-0.8))
+
+output: 0
+explanation: casting always round to the whole digit. this means that python just lops off everything after the decimal place 
 
 temperature = 40
 if temperature < 20:
