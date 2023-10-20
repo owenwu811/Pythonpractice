@@ -1,0 +1,184 @@
+a = 3
+if a == 2:
+    print("Yes")
+elif a == 3:
+    print("No")
+print("maybe")
+
+output: 	No
+		Maybe
+
+
+temperature = 40
+if temperature < 20:
+    print('smaller')
+elif temperature > 30:
+    print('bigger')
+else:
+    print('outside')
+while temperature is outside:
+    print('need to get back into the range')
+
+
+Output: bigger
+
+Line 5 gets printed, else gets skipped over, and then the while gets EVALUATED to false
+
+
+
+Try:
+	1/0
+Except ArithmeticError:
+	print(‘ArithmeticError’)
+Except Exception:
+	print(‘Exception’)
+Except DivisionByZeroError:
+	print(‘DivisionByZero’)
+
+Output: ArithmeticError - there is no such thing as a DivisionByZeroError!!!!! + arithmeticerror occurs when dividing a number by zero, so it’s the same as zerodivisionerror!
+
+
+a = [1, 2, 3, 4, 5]
+print(a[:3])
+
+Output: 1, 2, 3 - up to and not including 3 as an INDEX!!!!!!!
+
+temperature = 15
+if temperature > 30:
+    print("It's warm")
+    print("Drink Water")
+elif temperature < 20:
+    print("It's nice!")
+elif temperature < 20:
+    print("It's so cold!")
+print("Done")
+
+
+Output: It’s nice
+	Done
+THE LAST PRINT ALWAYS GETS EXECUTED!
+
+a = 3
+if a == 2:
+    print("Yes")
+elif a == 3:
+    print("No")
+if a == 3:
+    print("Nope")
+Output: 	No
+
+
+a = 3
+if a == 2:
+    print("Yes")
+elif a == 3:
+    print("No")
+elif a == 3:
+    print("Nope")
+print("yes")
+Output: No
+	 yes
+
+
+a = 3
+elif a == 2:
+    print("Yes")
+elif a == 3:
+    print("No")
+elif a == 3:
+    print("Nope")
+print("yes")
+Output: invalid syntax
+
+
+nums = [1, 2, 3, 4, 5]
+for i in nums:
+    if i == 1:
+        continue
+    else:
+        print("else")
+    else:
+	 print(“else”)
+
+
+Output: ERROR because you can’t have two else 
+
+—-
+Starting:
+Ending:
+A = [1, 2, 3, 4, 5]
+print(a[::-3])
+Output: [5, 2]
+
+
+A = [1, 2, 3, 4, 5]
+print(a[::3])
+Output: [1, 4]
+
+
+—--
+Movies = [‘vikings’, ‘soldiers’, ‘ss’, 83, 11, -8.7e^2]
+For m in range(-3):
+	print(movies[m])
+
+ 
+Output: nothing
+
+
+What is the result of the above output with range(0)?
+
+Output: nothing because you’re returning 0 indexes
+
+
+X = [7, 1, 3, 3, 8, 9, 1]
+For y in range(2):
+	print(y)
+ 
+Output: 0, 1 not 7, 1
+
+
+Def type(n):
+	Return (n * 2)
+	print(n / 2)
+print(type(7))
+
+Output: 14 - RETURN ENDS THE FUNCTION CALL, SO PRINT DOES NOT EXECUTE!!!
+
+
+
+h = (1, 2, 3)
+h = (2, 3, 1)
+print(h == h)
+
+output: True
+
+
+
+a = (1, 2, 3, 4, 5)
+print(a[:-3])
+
+Output: 1, 2
+
+print(-88 % 5)
+
+Output: 2
+Explanation:
+5 * 18 = -90
+-90 is further than -88, so it’s picked
+- 85 dosen’t go far enough negative
+- 90 + 2 = -88, so your answer is 2
+
+
+h = [1, 2, 3, 4, 5]
+for i in h:
+    while i == 1:
+        print("while")
+    if i == 1:
+        print("one")
+    print("yes")
+print("no")
+
+infinite loop
+
+
+
