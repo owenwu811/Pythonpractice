@@ -8,6 +8,16 @@ print("maybe")
 output: 	No
 		Maybe
 
+
+
+J = [2, 4, 5, 5, 6, 4, 4]
+j.remove(4)
+print(j)
+
+Output: [2, 5, 5, 6, 4, 4]
+Explanation: remove only removes the first digit in a list
+
+
 print(int(-0.8))
 
 output: 0
