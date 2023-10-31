@@ -65,3 +65,20 @@ g = {4, 4, 4, 'a', 5}
 j = g.pop() #since set order dosen't matter, a random number is popped + sets remove duplicates!!!!! - POP REMOVES A RANDOM ITEM FROM A SET SINCE ORDER DOSEN'T MATTER!!!!!
 print(g)
 print(j)
+
+
+j = {'a':1, 'b':2, 'c': 3}
+print(j.clear())
+
+#output: None
+
+import math
+j = 5.4
+print(math.ceil(j))
+
+#output: 6
+
+a = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h')
+print('b' in a)
+
+#output: true
