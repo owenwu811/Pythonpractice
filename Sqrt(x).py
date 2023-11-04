@@ -22,14 +22,15 @@ class Solution:
     def mySqrt(self, x: int) -> int:
         if x < 2:
             return x
-        a, b = 0, x
-        while abs(a-b) != 1:
-            mid = (a + b) // 2
+        l, r = 0, x
+        while abs(l-r) != 1:
+            mid = (l + r) // 2
             product = mid * mid
             if product == x:
                 return mid
             elif product > x:
-                b = mid
+                r = mid
             else:
-                a = mid
-        return a
+                l = mid
+        return l
+ 
