@@ -195,4 +195,26 @@ print("no")
 infinite loop
 
 
+import re
+a = "aabbbcccddd"
+print(a[3::-1])
 
+output: bbaa
+
+import re
+a = "aabbbcccddd"
+print(a[1::-1]) 
+
+output: aa
+
+import re
+a = "aabbbcccddd"
+print(a[2::-3]) #jumping backwards by -3 + dosen't print wrap arounds
+
+output: b
+
+string = "abcdeeeee"
+result = string.replace("e", "g") #replaces g with e however many times e was in the original string - 5, in this case
+print(result)
+
+output: abcdggggg
